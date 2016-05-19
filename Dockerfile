@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:trusty
 MAINTAINER Ben Rawson <mail@benrawson.com>
 ADD https://omnitruck.chef.io/install.sh /var/tmp/omnibus-installer.sh
 RUN apt-get update; apt-get install --no-install-recommends -y \
